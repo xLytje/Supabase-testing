@@ -39,7 +39,10 @@ export default function Header() {
           Next.js
         </a>
       </p>
-      <BackButton href="/notes" text="Notes" />
+      <div className="flex">
+        <BackButton href="/notes" text="Notes" />
+        <BackButton href="/kalender" text="Kalender" />
+      </div>
       <div className="w-full p-[1px] bg-gradient-to-r from-transparent via-foreground/10 to-transparent my-8" />
     </div>
   );

@@ -18,7 +18,7 @@ export default async function Names() {
           Tryk på et navn
         </h1>
         <Link
-          href="/de-seje"
+          href="/notes/de-seje"
           className="dark:bg-white bg-gray-800 w-52 p-4 rounded-lg"
         >
           {names1?.map((name) => (
@@ -26,7 +26,7 @@ export default async function Names() {
           ))}
         </Link>
         <Link
-          href="/laerende"
+          href="/notes/laerende"
           className="dark:bg-white bg-gray-800 w-52 p-4 rounded-lg"
         >
           {names2?.map((name) => (
@@ -34,7 +34,7 @@ export default async function Names() {
           ))}
         </Link>
         <Link
-          href="/de-nederen"
+          href="/notes/de-nederen"
           className="dark:bg-white bg-gray-800 w-52 p-4 rounded-lg"
         >
           {names3?.map((name) => (
