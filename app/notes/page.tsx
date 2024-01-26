@@ -15,7 +15,7 @@ export default async function Names() {
     <>
       <div className="flex flex-wrap align-middle justify-around">
         <h1 className="text-4xl font-bold m-8 mb-16 w-full text-center">
-          Tryk på et navn
+          Tryk på et navn for at se mere
         </h1>
         <Link
           href="/de-seje"
