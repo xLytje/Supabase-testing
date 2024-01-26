@@ -1,5 +1,6 @@
 import NextLogo from "./NextLogo";
 import SupabaseLogo from "./SupabaseLogo";
+import BackButton from "./BackButton";
 
 export default function Header() {
   return (
@@ -38,6 +39,7 @@ export default function Header() {
           Next.js
         </a>
       </p>
+      <BackButton href="/notes" text="Notes" />
       <div className="w-full p-[1px] bg-gradient-to-r from-transparent via-foreground/10 to-transparent my-8" />
     </div>
   );
